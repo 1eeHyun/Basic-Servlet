@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+  <li>hello Servlet
+    <ul>
+      <li><a href="/hello?username=servlet">Call hello Servlet</a></li>
+    </ul>
+  </li>
+
+  <li>HttpServletRequest
+    <ul>
+      <li><a href="/request-header">Basic usage, Look up header</a></li>
+      <li>Look up HTTP request body message
+        <ul>
+          <li><a href="/request-param?username=hello&age=20">GET - Query parameter</a></li>
+          <li><a href="/basic/hello-form.html">POST - HTML Form</a></li>
+          <li>HTTP API - MessageBody -> Postman test</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li>HttpServletResponse
+    <ul>
+      <li><a href="/response-header">Basic usage, Look up header</a></li>
+      <li>Look up HTTP response body message
+        <ul>
+          <li><a href="/response-html">HTML response</a></li>
+          <li><a href="/response-json">HTTP API JSON response</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+</body>
+</html>
